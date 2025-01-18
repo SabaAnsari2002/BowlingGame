@@ -106,7 +106,7 @@ public class ThrowBall : MonoBehaviour {
             pins[i] = Instantiate(pinPrefab, pinSpawn[i].position, pinSpawn[i].rotation);
         }
         camSpawn.x = 0f;
-        camSpawn.y = 2.5f;
+        camSpawn.y = 2f;
         camSpawn.z = -10f;
         offset = ball.transform.position - camSpawn;
         
