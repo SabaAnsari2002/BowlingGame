@@ -22,7 +22,7 @@ public class Player {
     }
 
     public int TotalScore {
-        get { return scores.Sum(); }
+        get { return Scores.Sum(); }
     }
 
     public int[] Scores {
